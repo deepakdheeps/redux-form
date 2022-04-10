@@ -1,38 +1,90 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form{
+  background-color: white;
+  align-items: left;
+  text-align: start;
+  place-self: left;
+  width: 50%;
+  margin-bottom: 60px;
+  margin-top:-30px;
+  text-align: center;
+  border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h6{
+  padding-top: 0px;
+  padding-bottom: 0px;
   color: white;
+  font-weight: 350;
+ font-size: 23px;
 }
-
-.App-link {
-  color: #61dafb;
+.div{
+  margin: 15px 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.h3{
+text-align: start;
+padding: 20px 0px 10px  0px;
+}
+.digi-left{
+  text-align: left;
+  margin-top: 50px;
+  font-weight: 500;
+  padding-left: 25px;
+}
+input{
+  margin: 10px 0px;
+  height: 30px;
+  border: ridge;
+  width: 95%;
+  border-radius: 5px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .digi-flex{
+    display: flex;
+    text-align: left;
+    font-weight: 500;
+    margin-left:25px;
+    margin-top: 10px;
   }
-}
+  .digi-padd{
+    padding-left: 70px;
+  }
+  .digi-padding{
+    padding-left: 70px;
+  }
+  .digi-zip{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: 500;
+    width: 45%;
+  }
+  h3{
+   margin: 0;
+   padding: 0;
+   margin-left: 20px;
+   margin-top: -27px;
+  }
+  .digi-button{
+   background-color: white;
+   color: black;
+   width: 100px;
+   font-size: 19px;
+   margin-left: 150px;
+   text-align: center;
+  
+   border-radius: 5px;
+  }
+  .flex{
+   display: flex;
+   padding-top: 30px;
+  }
+  .digi-footer{
+    color: white;
+    margin-bottom: 40px;
+  }
+  .digi-alert{
+    color:red;
+    font-size: medium;
+  }

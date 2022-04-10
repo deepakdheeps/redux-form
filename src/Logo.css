@@ -1,0 +1,66 @@
+
+  .containers{
+   
+    display: flex;
+   margin-top: 20px;
+    
+  }
+  .heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+  
+  }
+  .img-holder{
+    margin-left: 20px;
+    width: 105px;
+    height: 115px;
+    border: 3px black solid;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  .img{
+    width: 100px;
+    height: 110px;
+    object-fit: cover;
+  }
+  .digi-para{
+    display:block;
+   color: black;
+    font-size: 13px;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight:600;
+  }
+  h5{
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  
+  .img-1{
+    width: 150px;
+    height: 150px;
+  text-align: end;
+  margin-left: 120px;
+    object-fit: cover;
+  }
+  #input[type="file"] {
+      display: none;
+  }
+  .label{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .image-upload{
+      width: 300rem;
+      height: 30px;
+    color: black;
+    border-radius: 10px;
+    background-color: darkgrey;
+    cursor: pointer;
+    margin: 0;
+  }

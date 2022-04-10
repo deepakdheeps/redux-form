@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Form from "./form";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Page } from "./page";
+//import { Context } from "./form";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <center>
+        {/* <Context.Provider> */}
+        <BrowserRouter>
+          <Routes>
+            <Route path="" element={<Form />} />
+            <Route path="/values" element={<Page />} />
+          </Routes>
+        </BrowserRouter>
+        {/* </Context.Provider> */}
+      </center>
     </div>
   );
 }
